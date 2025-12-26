@@ -1,0 +1,75 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Build output
+dist/
+build/
+bin/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+# 忽略实际的配置文件（包含敏感信息）
+.env
+.env.development
+.env.production
+.env.test
+.env.local
+.env.*.local
+
+# 允许提交示例配置文件（不包含敏感信息）
+!.env.example
+!.env.*.example
+
+# Docker
+docker-compose.override.yml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.bak
+
+# Coverage
+coverage.txt
+coverage.html
+*.coverprofile
+
+# Air live reload tool
+.air.toml
+tmp/
